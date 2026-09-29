@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using MauiOpenGym.Views.Pages.Startup;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MauiOpenGym
 {
@@ -7,11 +8,8 @@ namespace MauiOpenGym
         public App()
         {
             InitializeComponent();
-        }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
+            MainPage = new StartupPage();
         }
     }
 }
