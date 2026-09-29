@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MauiOpenGym.Core.Utils.Extensions;
+using Microsoft.Extensions.Logging;
 
 namespace MauiOpenGym
 {
@@ -18,6 +19,10 @@ namespace MauiOpenGym
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+
+            builder.Services
+                .AddProjectPages()
+                .AddProjectViewModels();
 
             return builder.Build();
         }
