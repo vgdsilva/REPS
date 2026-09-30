@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePages xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:pages="clr-namespace:TrainingApp.Views.Pages"
+                 xmlns:viewModels="clr-namespace:TrainingApp.ViewModels.Startup"
+                 x:Class="TrainingApp.Views.Pages.Startup.StartupPage">
+
+    <pages:BasePages.BindingContext>
+        <viewModels:StartupViewModel />
+    </pages:BasePages.BindingContext>
+
+    <Grid>
+        
+    </Grid>
+</pages:BasePages>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="..\TrainingApp.Domain\TrainingApp.Domain.csproj" />
+  <Project Path="TrainingApp.csproj" />
+</Solution>
